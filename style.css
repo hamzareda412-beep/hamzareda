@@ -1,0 +1,55 @@
+body {
+    background-color: #f0f4f8;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+/* تنسيق الكارت (العلبة) */
+.card {
+    background-color: #ffffff;
+    width: 300px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 15px; /* حواف دائرية */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+}
+
+/* تنسيق الزرار */
+.my-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s; /* الحركة السلسة */
+}
+
+/* تأثير عند مرور الماوس على الزر */
+.my-btn:hover {
+    background-color: #2980b9;
+    transform: scale(1.05); /* تكبير بسيط للزر */
+}/* ترتيب الأزرار الثلاثة بجانب بعضها */
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+/* إلغاء الخط تحت الروابط وإظهارها كأزرار */
+.my-btn {
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* ألوان الأزرار الخاصة */
+.whatsapp { background-color: #25D366; }
+.email { background-color: #ea4335; }
+.facebook { background-color: #1877F2; }
